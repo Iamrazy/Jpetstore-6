@@ -49,13 +49,11 @@
     <url>https://travis-ci.org/mybatis/jpetstore-6</url>
   </ciManagement>
   <distributionManagement>
-    <site>
-      <id>gh-pages</id>
-      <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/jpetstore-6.git?gh-pages#</url>
-    </site>
+    <repository>
+    <id>releases</id>
+    <url>http://52.221.222.203:8081/nexus/content/repositories/releases</url>
+  </repository>
   </distributionManagement>
-
   <dependencies>
     <dependency>
       <groupId>commons-logging</groupId>
