@@ -381,14 +381,13 @@
          <repository>
                 <id>releases</id>
                 <name>Releases</name>
-                <url>http://52.14.197.26:8081/nexus/content/repositories/releases</url>
+                <url>http://52.14.197.26:8081/nexus/releases</url>
          </repository>
-         
-         
+            
          <snapshotRepository>
                 <id>snapshots</id>
                 <name>snapshots</name>
-                <url>http://52.14.197.26:8081/nexus/content/repositories/snapshots/</url>
+                <url>http://52.14.197.26:8081/nexus/snapshots/</url>
          </snapshotRepository>
      </distributionManagement>
        
