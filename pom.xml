@@ -50,8 +50,8 @@
   </ciManagement>
   <distributionManagement>
     <repository>
-    <id>releases</id>
-    <url>http://52.221.222.203:8081/nexus/content/repositories/releases</url>
+    <id>manualdeploy</id>
+    <url>http://3.93.186.85:8081/nexus/content/repositories/manualdeploy</url>
   </repository>
   </distributionManagement>
   <dependencies>
